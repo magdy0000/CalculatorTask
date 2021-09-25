@@ -92,17 +92,19 @@
 
         <TextView
             android:id="@+id/text_operation_result"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:textSize="16sp"
-            tools:text="13 312  "
-            android:textStyle="bold"
-            android:textColor="@color/green"
             android:layout_marginStart="5dp"
-            app:layout_constraintTop_toTopOf="@+id/operation_result"
+            android:textColor="@color/green"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:maxLines="1"
+            android:layout_marginEnd="10dp"
             app:layout_constraintBottom_toBottomOf="@+id/operation_result"
+            app:layout_constraintEnd_toStartOf="@+id/text_date"
             app:layout_constraintStart_toEndOf="@+id/operation_result"
-            />
+            app:layout_constraintTop_toTopOf="@+id/operation_result"
+            tools:text="133  " />
 
 
 
