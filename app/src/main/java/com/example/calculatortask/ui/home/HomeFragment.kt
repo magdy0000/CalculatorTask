@@ -79,6 +79,13 @@ class HomeFragment : Fragment() {
 
             findNavController().navigate(HomeFragmentDirections.actionHomeFragmentToCalculatorFragment())
         }
+        binding.locationCard.setOnClickListener {
+            if (isLocationPermissionAllowed()){
+                locationChecker()
+            }else{
+                askToLocationPermission()
+            }
+        }
     }
 
     private fun observers(){
