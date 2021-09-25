@@ -83,6 +83,7 @@ class HomeFragment : Fragment() {
             if (isLocationPermissionAllowed()){
                 locationChecker()
             }else{
+
                 askToLocationPermission()
             }
         }
