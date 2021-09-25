@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">CalculatorTask</string>
+    <string name="enter_your_numbers">Enter your numbers</string>
+    <string name="plus">+</string>
+    <string name="sub">-</string>
+    <string name="div">/</string>
+    <string name="multi">*</string>
+    <string name="select_your_operator">Select your operator</string>
+    <string name="execute">Execute</string>
+    <string name="required">Required</string>
+    <string name="operator_validation">please select operator</string>
+    <string name="time_validation">please select time</string>
+    <string name="operation_numbers">Operation numbers :</string>
+    <string name="operation_operator">Operation operator :</string>
+    <string name="pending">Pending</string>
+    <string name="tap_top_get_location">Tap top get Location</string>
+
+    <string-array name="spinner_time">
+        <item>Select time</item>
+        <item>5 second</item>
+        <item>30 second</item>
+        <item>60 second</item>
+        <item>90 second</item>
+        <item>120 second</item>
+    </string-array>
+</resources>
